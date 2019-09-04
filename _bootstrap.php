@@ -19,10 +19,10 @@
 error_reporting('all');
 
 // pull environment vars
-$merchantId = getenv('testcarspaco');
-$password = getenv('0b0bb122d628da5a93c67ecb39924646');
-$region = getenv('MTF');
-$apiVersion = getenv('52');
+$merchantId = 'testcarspaco';
+$password = '0b0bb122d628da5a93c67ecb39924646';
+$region = 'MTF';
+$apiVersion = '52';
 
 // merchant id must be TEST
 $merchantIdPrefix = substr($merchantId, 0, 4);
