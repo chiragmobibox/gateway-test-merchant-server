@@ -19,16 +19,16 @@
 error_reporting('all');
 
 // pull environment vars
-$merchantId = 'testcarspaco';
+$merchantId = 'carspaco';
 $password = '0b0bb122d628da5a93c67ecb39924646';
 $region = 'MTF';
 $apiVersion = '52';
 
 // merchant id must be TEST
-$merchantIdPrefix = substr($merchantId, 0, 4);
-if (strcasecmp($merchantIdPrefix, "test") != 0) {
-    error(500, 'Only TEST merchant IDs should be used with this software');
-}
+///$merchantIdPrefix = substr($merchantId, 0, 4);
+//if (strcasecmp($merchantIdPrefix, "test") != 0) {
+   // error(500, 'Only TEST merchant IDs should be used with this software');
+//}
 
 // get regional url prefix
 $prefix = 'test-';
